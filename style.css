@@ -1,0 +1,96 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: 14px;
+   background-color: white;
+
+}
+body{ /*Estilizando todo o body*/
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243); /*até agora criou um quadrado com esseste tamanho e esta cor, nem tudo dentro do body ficou dentro do quadradão, acho que ppor causa do  tamanho estipulado*/
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /*mudou quase nada mas eu ajustei tudo no centro*/
+   
+
+}
+.container-principal{
+  display: flex; /*transformei eo containaer princiapla em um flex container, ele vai alinhar os itens proporcionalmente*/
+  align-items: center;
+  justify-content: start; /*alinhei amabos os eixos x e y no centro */
+  width: 60%;
+  height: 100vh;
+}
+.instagram-imagem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.foto{
+  width: 25rem;
+}
+.instagram-loggin{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-width: 15rem;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 120%;
+  padding: 1.2rem 4;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  
+}
+.instagramball-logo{
+  width: 15rem;
+}
+.logos{
+  width: 10rem;
+  
+}
+.box:nth-child(1){
+  min-height: 25rem;
+  color: darkblue;
+  
+}
+.espaço{
+  background-color: lightgray;
+  border-radius: 3px;
+  width: 250px;
+  height: 1cm;
+  font-size: 13px;
+  justify-items: center;
+}
+.entrar{
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  width: 250px;
+}
+.box__two{
+  height: 4rem;
+  justify-content: center;
+}
+.box__tree{
+  border: none;
+  width: 100%;
+}
+.box__four{
+  border: none;
+  width: 100%;
+ flex-direction: row;
+}
